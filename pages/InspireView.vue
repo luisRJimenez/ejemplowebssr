@@ -6,7 +6,7 @@
         &#8220;First, solve the problem. Then, write the code.&#8221;
         <footer>
           <small>
-            <em>&mdash;John Johnson</em>
+            <em>&mdash;Luis Rodrigo Jimenez</em>
           </small>
         </footer>
       </blockquote>

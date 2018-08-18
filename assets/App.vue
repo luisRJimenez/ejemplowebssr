@@ -85,25 +85,26 @@
 </template>
 
 <script>
-  import Meta from 'mixins/meta'
+import Meta from "mixins/meta";
 
-  export default {
-    mixins: [Meta],
+export default {
+  mixins: [Meta],
 
-    data () {
-      return {
-        clipped: false,
-        drawer: true,
-        fixed: false,
-        items: [
-          { icon: 'apps', title: 'Welcome', to: '/' },
-          { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' }
-        ],
-        miniVariant: false,
-        right: true,
-        rightDrawer: false,
-        title: 'Vuetify.js'
-      }
-    }
+  data() {
+    return {
+      clipped: false,
+      drawer: true,
+      fixed: false,
+      items: [
+        { icon: "apps", title: "Welcome", to: "/" },
+        { icon: "bubble_chart", title: "Inspire", to: "/inspire" },
+        { icon: "person_add", title: "Contactos", to: "/contacto" }
+      ],
+      miniVariant: false,
+      right: true,
+      rightDrawer: false,
+      title: "Vuetify.js"
+    };
   }
+};
 </script>
